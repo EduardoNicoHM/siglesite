@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(131, 109, 109);
+}
+
+.encabezado{
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+}
+.img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+}
+.encabezado img{
+    width: 50% ;
+    height: 100%;
+    object-fit:fill;
+}
+
+#navegacion{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(243, 13, 52);
+    font-family: 'Sen', sans-serif;
+    font-weight: 50;
+}
+
+#busqueda{
+    width: 30%;
+    height: 8vh;
+    background-color: rgb(182, 37, 37);
+    margin: 8px;
+    margin-left: 150px;
+   
+}
+
+#text{
+    padding: 12px;
+    width: 80%;
+    margin: 5px;
+}
+
+.li i{
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.li a{
+    color: white;
+    text-decoration: none;
+}
+.li{
+    display: inline-block;
+    padding: 12px;
+    color: white;
+}
+
+.li:hover > a{
+    color: black;
+}
+
+.li:hover {
+    color: black;
+}
+
+
+
+#izquierdo{
+    float: left;
+    width: 30%;
+    height: 70vh;
+    background-color: cornflowerblue;
+}
+
+#izquierdo img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+#derecho{
+    float: left;
+    width: 70%;
+    height: 70vh;
+    background-color: rgb(233, 85, 129);
+}
+
+.container__img{
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+
+.container__img img{
+    width: 100%;
+    height: 70vh;
+    flex-direction: row;
+    display: inline-block;
+    justify-content: space-evenly;
+    object-fit:cover;
+    flex-wrap: wrap;
+    min-width: 150px;
+
+}
+
+#piepagina{
+    float: left;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+
+.bloques-item{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.bloques{
+    background-color: rgb(228, 138, 35);
+    height: 4vh;
+    margin: 25px;
+    padding-left: 15px;
+    flex: 1;
+}
+
+.busqueda-li{
+    display: flex;
+    flex-direction: row;
+}
+
+.bloques-text a{
+    color: white;
+    text-decoration: none;
+}
+
+.bloques-text{
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+.bloques-text:hover > a{
+    color: black;
+}
+
+.bloques{
+    background-color: rgb(243, 13, 52);
+    font-family: 'Sen', sans-serif;
+    font-weight: 50;
+}
